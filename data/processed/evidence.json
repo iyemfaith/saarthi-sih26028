@@ -1,0 +1,595 @@
+{
+ "reliability": [
+  {
+   "code": "TDL",
+   "name": "Tundla Jn",
+   "n": 1092,
+   "implausible": 0.10531135531135531,
+   "round5": 0.0,
+   "score": 0.6840659340659341
+  },
+  {
+   "code": "KRJ",
+   "name": "Khurja Jn",
+   "n": 279,
+   "implausible": 0.025089605734767026,
+   "round5": 0.0,
+   "score": 0.9247311827956989
+  },
+  {
+   "code": "FTP",
+   "name": "Fatehpur",
+   "n": 618,
+   "implausible": 0.021035598705501618,
+   "round5": 0.009393346379647727,
+   "score": 0.9274998575038474
+  },
+  {
+   "code": "PRYJ",
+   "name": "Prayagraj Jn",
+   "n": 1247,
+   "implausible": 0.024057738572574178,
+   "round5": 0.0,
+   "score": 0.9278267842822775
+  },
+  {
+   "code": "CNB",
+   "name": "Kanpur Central",
+   "n": 2143,
+   "implausible": 0.020998600093327113,
+   "round5": 0.0,
+   "score": 0.9370041997200187
+  },
+  {
+   "code": "NDLS",
+   "name": "New Delhi",
+   "n": 717,
+   "implausible": 0.012552301255230125,
+   "round5": 0.00979020979020978,
+   "score": 0.9525528864440997
+  },
+  {
+   "code": "ALJN",
+   "name": "Aligarh Jn",
+   "n": 1022,
+   "implausible": 0.011741682974559686,
+   "round5": 0.007823960880195602,
+   "score": 0.9569509901961253
+  },
+  {
+   "code": "RURA",
+   "name": "Rura",
+   "n": 218,
+   "implausible": 0.013761467889908258,
+   "round5": 0.0,
+   "score": 0.9587155963302753
+  },
+  {
+   "code": "SKB",
+   "name": "Shikohabad Jn",
+   "n": 368,
+   "implausible": 0.005434782608695652,
+   "round5": 0.023333333333333317,
+   "score": 0.9603623188405798
+  },
+  {
+   "code": "FZD",
+   "name": "Firozabad",
+   "n": 404,
+   "implausible": 0.009900990099009901,
+   "round5": 0.00972644376899695,
+   "score": 0.9605705859339733
+  },
+  {
+   "code": "JJK",
+   "name": "Jhinjhak",
+   "n": 251,
+   "implausible": 0.01195219123505976,
+   "round5": 0.0,
+   "score": 0.9641434262948207
+  },
+  {
+   "code": "BRE",
+   "name": "Bharwari",
+   "n": 184,
+   "implausible": 0.005434782608695652,
+   "round5": 0.01794871794871794,
+   "score": 0.9657469342251952
+  },
+  {
+   "code": "GZB",
+   "name": "Ghaziabad",
+   "n": 1080,
+   "implausible": 0.011111111111111112,
+   "round5": 0.0,
+   "score": 0.9666666666666667
+  },
+  {
+   "code": "PHD",
+   "name": "Phaphund",
+   "n": 285,
+   "implausible": 0.007017543859649123,
+   "round5": 0.0,
+   "score": 0.9789473684210527
+  },
+  {
+   "code": "HRS",
+   "name": "Hathras Jn",
+   "n": 301,
+   "implausible": 0.006644518272425249,
+   "round5": 0.0,
+   "score": 0.9800664451827242
+  },
+  {
+   "code": "BNT",
+   "name": "Bharthana",
+   "n": 177,
+   "implausible": 0.005649717514124294,
+   "round5": 0.0,
+   "score": 0.9830508474576272
+  },
+  {
+   "code": "ETW",
+   "name": "Etawah",
+   "n": 845,
+   "implausible": 0.001183431952662722,
+   "round5": 0.0,
+   "score": 0.9964497041420118
+  },
+  {
+   "code": "KGA",
+   "name": "Khaga",
+   "n": 150,
+   "implausible": 0.0,
+   "round5": 0.0,
+   "score": 1.0
+  },
+  {
+   "code": "SRO",
+   "name": "Sirathu",
+   "n": 161,
+   "implausible": 0.0,
+   "round5": 0.0,
+   "score": 1.0
+  }
+ ],
+ "optimism": [
+  {
+   "code": "NDLS",
+   "name": "New Delhi",
+   "n": 526,
+   "promised": 23.0,
+   "actual": 9.5,
+   "promised_mean": 24.415399239543728,
+   "actual_mean": -2.914448669201521
+  },
+  {
+   "code": "GZB",
+   "name": "Ghaziabad",
+   "n": 702,
+   "promised": 26.0,
+   "actual": 20.0,
+   "promised_mean": 32.897578347578346,
+   "actual_mean": 22.803418803418804
+  },
+  {
+   "code": "KRJ",
+   "name": "Khurja Jn",
+   "n": 283,
+   "promised": 11.25,
+   "actual": -4.0,
+   "promised_mean": 12.731978798586574,
+   "actual_mean": -4.5371024734982335
+  },
+  {
+   "code": "ALJN",
+   "name": "Aligarh Jn",
+   "n": 858,
+   "promised": 18.42500000000001,
+   "actual": 3.0,
+   "promised_mean": 23.80844988344988,
+   "actual_mean": 1.5466200466200466
+  },
+  {
+   "code": "HRS",
+   "name": "Hathras Jn",
+   "n": 448,
+   "promised": 16.0,
+   "actual": -1.0,
+   "promised_mean": 14.779241071428572,
+   "actual_mean": -6.875
+  },
+  {
+   "code": "TDL",
+   "name": "Tundla Jn",
+   "n": 1027,
+   "promised": 20.849999999999994,
+   "actual": 12.0,
+   "promised_mean": 25.014703018500484,
+   "actual_mean": 7.584225900681597
+  },
+  {
+   "code": "FZD",
+   "name": "Firozabad",
+   "n": 515,
+   "promised": 14.449999999999989,
+   "actual": 2.0,
+   "promised_mean": 15.974854368932037,
+   "actual_mean": -3.487378640776699
+  },
+  {
+   "code": "SKB",
+   "name": "Shikohabad Jn",
+   "n": 498,
+   "promised": 11.975000000000001,
+   "actual": 1.0,
+   "promised_mean": 14.587148594377512,
+   "actual_mean": -1.8674698795180722
+  },
+  {
+   "code": "ETW",
+   "name": "Etawah",
+   "n": 663,
+   "promised": 10.849999999999994,
+   "actual": -4.0,
+   "promised_mean": 14.373152337858219,
+   "actual_mean": -6.352941176470588
+  },
+  {
+   "code": "BNT",
+   "name": "Bharthana",
+   "n": 244,
+   "promised": 4.149999999999999,
+   "actual": -4.0,
+   "promised_mean": 12.247745901639346,
+   "actual_mean": -7.745901639344262
+  },
+  {
+   "code": "PHD",
+   "name": "Phaphund",
+   "n": 307,
+   "promised": 8.150000000000006,
+   "actual": -3.0,
+   "promised_mean": 12.614332247557003,
+   "actual_mean": -4.521172638436482
+  },
+  {
+   "code": "JJK",
+   "name": "Jhinjhak",
+   "n": 235,
+   "promised": 3.049999999999999,
+   "actual": -2.0,
+   "promised_mean": 11.470425531914895,
+   "actual_mean": -1.5872340425531914
+  },
+  {
+   "code": "RURA",
+   "name": "Rura",
+   "n": 236,
+   "promised": 5.725000000000001,
+   "actual": -10.0,
+   "promised_mean": 11.747457627118642,
+   "actual_mean": -9.627118644067796
+  },
+  {
+   "code": "CNB",
+   "name": "Kanpur Central",
+   "n": 1103,
+   "promised": 16.600000000000023,
+   "actual": 4.0,
+   "promised_mean": 19.338531278331825,
+   "actual_mean": -2.8794197642792385
+  },
+  {
+   "code": "FTP",
+   "name": "Fatehpur",
+   "n": 453,
+   "promised": 8.149999999999999,
+   "actual": -6.0,
+   "promised_mean": 11.379580573951436,
+   "actual_mean": -5.441501103752759
+  },
+  {
+   "code": "KGA",
+   "name": "Khaga",
+   "n": 201,
+   "promised": 16.0,
+   "actual": 5.0,
+   "promised_mean": 15.444278606965172,
+   "actual_mean": 5.074626865671642
+  },
+  {
+   "code": "SRO",
+   "name": "Sirathu",
+   "n": 198,
+   "promised": 13.450000000000003,
+   "actual": 1.0,
+   "promised_mean": 12.433080808080808,
+   "actual_mean": 2.0606060606060606
+  },
+  {
+   "code": "BRE",
+   "name": "Bharwari",
+   "n": 267,
+   "promised": 7.450000000000003,
+   "actual": -3.0,
+   "promised_mean": 8.701685393258428,
+   "actual_mean": -3.700374531835206
+  },
+  {
+   "code": "PRYJ",
+   "name": "Prayagraj Jn",
+   "n": 720,
+   "promised": 16.0,
+   "actual": 7.5,
+   "promised_mean": 17.641666666666666,
+   "actual_mean": 1.6402777777777777
+  }
+ ],
+ "rake": {
+  "n": 1026,
+  "n_tight": 76,
+  "out_delay_tight": 279.0,
+  "out_delay_loose": 12.0,
+  "corr": 0.6537126954510512,
+  "sample": [
+   {
+    "train": 2570,
+    "pair": 2569,
+    "origin": "NDLS",
+    "slack": 495.0,
+    "in_delay": 838.0,
+    "eaten": 403.0,
+    "out_delay": 576.0,
+    "out_delay_next": 557.0
+   },
+   {
+    "train": 12524,
+    "pair": 12523,
+    "origin": "NDLS",
+    "slack": 190.0,
+    "in_delay": 825.0,
+    "eaten": 695.0,
+    "out_delay": 775.0,
+    "out_delay_next": 768.0
+   },
+   {
+    "train": 3414,
+    "pair": 3413,
+    "origin": "NDLS",
+    "slack": 665.0,
+    "in_delay": 720.0,
+    "eaten": 115.0,
+    "out_delay": 675.0,
+    "out_delay_next": 847.0
+   },
+   {
+    "train": 15128,
+    "pair": 15127,
+    "origin": "NDLS",
+    "slack": 350.0,
+    "in_delay": 639.0,
+    "eaten": 349.0,
+    "out_delay": 495.0,
+    "out_delay_next": 535.0
+   },
+   {
+    "train": 2570,
+    "pair": 2569,
+    "origin": "NDLS",
+    "slack": 495.0,
+    "in_delay": 611.0,
+    "eaten": 176.0,
+    "out_delay": 420.0,
+    "out_delay_next": 486.0
+   },
+   {
+    "train": 3484,
+    "pair": 3483,
+    "origin": "NDLS",
+    "slack": 200.0,
+    "in_delay": 602.0,
+    "eaten": 462.0,
+    "out_delay": 511.0,
+    "out_delay_next": 784.0
+   },
+   {
+    "train": 2570,
+    "pair": 2569,
+    "origin": "NDLS",
+    "slack": 495.0,
+    "in_delay": 601.0,
+    "eaten": 166.0,
+    "out_delay": 391.0,
+    "out_delay_next": 448.0
+   },
+   {
+    "train": 3484,
+    "pair": 3483,
+    "origin": "NDLS",
+    "slack": 200.0,
+    "in_delay": 559.0,
+    "eaten": 419.0,
+    "out_delay": 509.0,
+    "out_delay_next": 669.0
+   },
+   {
+    "train": 2564,
+    "pair": 2563,
+    "origin": "NDLS",
+    "slack": 765.0,
+    "in_delay": 531.0,
+    "eaten": 0.0,
+    "out_delay": 0.0,
+    "out_delay_next": 56.0
+   },
+   {
+    "train": 3414,
+    "pair": 3413,
+    "origin": "NDLS",
+    "slack": 665.0,
+    "in_delay": 531.0,
+    "eaten": 0.0,
+    "out_delay": 481.0,
+    "out_delay_next": 723.0
+   },
+   {
+    "train": 2570,
+    "pair": 2569,
+    "origin": "NDLS",
+    "slack": 495.0,
+    "in_delay": 527.0,
+    "eaten": 92.0,
+    "out_delay": 306.0,
+    "out_delay_next": 447.0
+   },
+   {
+    "train": 12392,
+    "pair": 12391,
+    "origin": "NDLS",
+    "slack": 510.0,
+    "in_delay": 513.0,
+    "eaten": 63.0,
+    "out_delay": 237.0,
+    "out_delay_next": 333.0
+   }
+  ]
+ },
+ "passenger_sim": {
+  "timetable": {
+   "n": 3268,
+   "missed": 0.0,
+   "wait_med": 25.0,
+   "wait_mean": 57.56854345165239,
+   "wait_p90": 105.0
+  },
+  "today": {
+   "n": 3268,
+   "missed": 0.14902080783353733,
+   "wait_med": 14.0,
+   "wait_mean": 18.59618842143114,
+   "wait_p90": 38.0
+  },
+  "saarthi": {
+   "n": 3268,
+   "missed": 0.023561811505507957,
+   "wait_med": 10.80000000000291,
+   "wait_mean": 14.567909746161119,
+   "wait_p90": 35.400000000001455
+  }
+ },
+ "volatility": {
+  "n": 3731,
+  "days": [
+   "2024-09-25",
+   "2024-09-26",
+   "2024-09-27",
+   "2024-09-28",
+   "2024-09-29",
+   "2024-09-30"
+  ],
+  "b0_changes": 3.127043688019298,
+  "b0_slips": 1.957920128651836,
+  "pub_rev": 0.7469847225944787,
+  "pub_ref": 0.8893058161350844,
+  "kept_last": 0.8265880461002412,
+  "kept_60": 0.8019297775395337,
+  "b0_slip_dist": {
+   "0": 1717,
+   "1": 556,
+   "2": 397,
+   "3": 294,
+   "4": 230,
+   "5": 166,
+   "6": 106,
+   "7": 66,
+   "8": 61,
+   "9": 25,
+   "10": 27,
+   "11": 21,
+   "12": 11,
+   "13": 8,
+   "14": 17,
+   "15": 6,
+   "16": 9,
+   "17": 3,
+   "18": 3,
+   "20": 2,
+   "22": 1,
+   "24": 1,
+   "25": 1,
+   "26": 2,
+   "35": 1
+  },
+  "pub_rev_dist": {
+   "0": 2178,
+   "1": 888,
+   "2": 354,
+   "3": 174,
+   "4": 80,
+   "5": 30,
+   "6": 14,
+   "7": 6,
+   "8": 1,
+   "9": 3,
+   "10": 1,
+   "11": 1,
+   "17": 1
+  },
+  "share_b0_3plus": 0.2843741624229429,
+  "share_pub_3plus": 0.08335566872152238,
+  "per_day": {
+   "2024-09-25": {
+    "n": 629,
+    "b0_slips": 2.0763116057233706,
+    "pub_rev": 0.7360890302066773,
+    "kept_60": 0.8203497615262321
+   },
+   "2024-09-26": {
+    "n": 614,
+    "b0_slips": 2.07328990228013,
+    "pub_rev": 0.762214983713355,
+    "kept_60": 0.8224755700325733
+   },
+   "2024-09-27": {
+    "n": 645,
+    "b0_slips": 2.066666666666667,
+    "pub_rev": 0.7829457364341085,
+    "kept_60": 0.8155038759689922
+   },
+   "2024-09-28": {
+    "n": 621,
+    "b0_slips": 1.8341384863123993,
+    "pub_rev": 0.6988727858293076,
+    "kept_60": 0.7987117552334944
+   },
+   "2024-09-29": {
+    "n": 604,
+    "b0_slips": 1.7798013245033113,
+    "pub_rev": 0.7367549668874173,
+    "kept_60": 0.7698675496688742
+   },
+   "2024-09-30": {
+    "n": 618,
+    "b0_slips": 1.9077669902912622,
+    "pub_rev": 0.7637540453074434,
+    "kept_60": 0.7831715210355987
+   }
+  }
+ },
+ "dataset": {
+  "corridor_trains": 323,
+  "corridor_trips": 4536,
+  "corridor_reports": 99364,
+  "stations": 19,
+  "km": 635.1,
+  "quality": {
+   "reports_raw": 103691,
+   "phantom": 4327,
+   "phantom_pct": 4.172975475209999,
+   "trips": 4643,
+   "trips_with_phantom": 1326,
+   "corridor_phantom": 457
+  }
+ }
+}

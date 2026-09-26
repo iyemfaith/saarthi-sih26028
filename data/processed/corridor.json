@@ -1,0 +1,192 @@
+[
+ {
+  "code": "NDLS",
+  "name": "New Delhi",
+  "hi": "नई दिल्ली",
+  "km": -0.0,
+  "lat": 28.642314,
+  "lon": 77.22000399999999,
+  "zone": "NR",
+  "n_trains": 119
+ },
+ {
+  "code": "GZB",
+  "name": "Ghaziabad",
+  "hi": "गाज़ियाबाद",
+  "km": 25.4,
+  "lat": 28.649702,
+  "lon": 77.431099,
+  "zone": "NR",
+  "n_trains": 82
+ },
+ {
+  "code": "KRJ",
+  "name": "Khurja Jn",
+  "hi": "खुर्जा जं.",
+  "km": 87.9,
+  "lat": 28.206407000000002,
+  "lon": 77.81903999999999,
+  "zone": "NCR",
+  "n_trains": 21
+ },
+ {
+  "code": "ALJN",
+  "name": "Aligarh Jn",
+  "hi": "अलीगढ़ जं.",
+  "km": 131.0,
+  "lat": 27.889584,
+  "lon": 78.074559,
+  "zone": "NCR",
+  "n_trains": 84
+ },
+ {
+  "code": "HRS",
+  "name": "Hathras Jn",
+  "hi": "हाथरस जं.",
+  "km": 160.6,
+  "lat": 27.62483,
+  "lon": 78.13706699999999,
+  "zone": "NCR",
+  "n_trains": 21
+ },
+ {
+  "code": "TDL",
+  "name": "Tundla Jn",
+  "hi": "टूंडला जं.",
+  "km": 208.2,
+  "lat": 27.207747,
+  "lon": 78.233285,
+  "zone": "NCR",
+  "n_trains": 138
+ },
+ {
+  "code": "FZD",
+  "name": "Firozabad",
+  "hi": "फ़िरोज़ाबाद",
+  "km": 223.0,
+  "lat": 27.147415,
+  "lon": 78.386691,
+  "zone": "NCR",
+  "n_trains": 28
+ },
+ {
+  "code": "SKB",
+  "name": "Shikohabad Jn",
+  "hi": "शिकोहाबाद जं.",
+  "km": 238.3,
+  "lat": 27.085686,
+  "lon": 78.57495499999999,
+  "zone": "NCR",
+  "n_trains": 32
+ },
+ {
+  "code": "ETW",
+  "name": "Etawah",
+  "hi": "इटावा",
+  "km": 299.9,
+  "lat": 26.785970000000002,
+  "lon": 79.021502,
+  "zone": "NCR",
+  "n_trains": 89
+ },
+ {
+  "code": "BNT",
+  "name": "Bharthana",
+  "hi": "भरथना",
+  "km": 320.5,
+  "lat": 26.7502248,
+  "lon": 79.2163612,
+  "zone": "NCR",
+  "n_trains": 12
+ },
+ {
+  "code": "PHD",
+  "name": "Phaphund",
+  "hi": "फफूंद",
+  "km": 357.1,
+  "lat": 26.632118317699998,
+  "lon": 79.5542552124,
+  "zone": "NCR",
+  "n_trains": 16
+ },
+ {
+  "code": "JJK",
+  "name": "Jhinjhak",
+  "hi": "झींझक",
+  "km": 377.2,
+  "lat": 26.554994,
+  "lon": 79.734225,
+  "zone": "NCR",
+  "n_trains": 17
+ },
+ {
+  "code": "RURA",
+  "name": "Rura",
+  "hi": "रूरा",
+  "km": 396.5,
+  "lat": 26.485377,
+  "lon": 79.908216,
+  "zone": "NCR",
+  "n_trains": 15
+ },
+ {
+  "code": "CNB",
+  "name": "Kanpur Central",
+  "hi": "कानपुर सेंट्रल",
+  "km": 441.2,
+  "lat": 26.454240000000002,
+  "lon": 80.350966,
+  "zone": "NCR",
+  "n_trains": 273
+ },
+ {
+  "code": "FTP",
+  "name": "Fatehpur",
+  "hi": "फ़तेहपुर",
+  "km": 518.5,
+  "lat": 25.917489,
+  "lon": 80.801869,
+  "zone": "NCR",
+  "n_trains": 57
+ },
+ {
+  "code": "KGA",
+  "name": "Khaga",
+  "hi": "खागा",
+  "km": 552.8,
+  "lat": 25.761853,
+  "lon": 81.102658,
+  "zone": "NCR",
+  "n_trains": 11
+ },
+ {
+  "code": "SRO",
+  "name": "Sirathu",
+  "hi": "सिराथू",
+  "km": 578.2,
+  "lat": 25.650642,
+  "lon": 81.31786,
+  "zone": "NCR",
+  "n_trains": 12
+ },
+ {
+  "code": "BRE",
+  "name": "Bharwari",
+  "hi": "भरवारी",
+  "km": 597.9,
+  "lat": 25.5591917,
+  "lon": 81.4918665,
+  "zone": "NCR",
+  "n_trains": 12
+ },
+ {
+  "code": "PRYJ",
+  "name": "Prayagraj Jn",
+  "hi": "प्रयागराज जं.",
+  "km": 635.1,
+  "lat": 25.4449,
+  "lon": 81.8246,
+  "zone": "NCR",
+  "n_trains": 184
+ }
+]

@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAARTHI Control Room</title>
+<meta name="description" content="SAARTHI prototype: calibrated arrival windows and decisions for the Delhi-Kanpur-Prayagraj trunk, replayed on real Sept 2024 running data.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230b0b0b'/><path d='M7 20h18M9 20l3-8h8l3 8' stroke='%23fff' stroke-width='2.4' fill='none' stroke-linecap='round'/><circle cx='12' cy='23' r='2' fill='%23fab219'/><circle cx='20' cy='23' r='2' fill='%23fab219'/></svg>">
+<link rel="stylesheet" href="/static/css/app.css?v=11">
+</head>
+<body>
+<header class="top">
+  <div class="top-row">
+    <div class="brand">
+      <div class="brand-mark">सा</div>
+      <div>
+        <div class="brand-name">SAARTHI<span class="hi">सारथी</span></div>
+        <div class="brand-sub" data-i18n="tagline">Not a time. A decision.</div>
+      </div>
+    </div>
+    <div class="clock-box">
+      <div>
+        <div class="clock num" id="clock">--:--</div>
+      </div>
+      <div class="clock-date" id="clockDate">loading…</div>
+      <button class="icon-btn" id="playBtn" title="Play / pause replay (space)" aria-label="Play or pause"></button>
+      <div class="seg" id="speedSeg" role="group" aria-label="Replay speed">
+        <button data-speed="1">1×</button><button data-speed="60" class="on">60×</button><button data-speed="300">300×</button><button data-speed="900">900×</button>
+      </div>
+      <div class="scrub"><input type="range" id="scrub" min="0" max="1440" step="5" value="840" aria-label="Replay time"><div class="ticks"><span>00</span><span>04</span><span>08</span><span>12</span><span>16</span><span>20</span><span>24</span></div></div>
+    </div>
+    <div class="tools">
+      <select class="pick" id="daySel" aria-label="Replay day"></select>
+      <div class="seg" id="langSeg" role="group" aria-label="Language"><button data-lang="en" class="on">EN</button><button data-lang="hi" class="hi">हिं</button></div>
+      <button class="icon-btn" id="themeBtn" title="Light / dark" aria-label="Toggle theme">◐</button>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button class="tab on" data-view="control"><span data-i18n="t_control">Control room</span> <small data-i18n="t_control_s">section controller</small></button>
+    <button class="tab" data-view="station"><span data-i18n="t_station">Station</span> <small data-i18n="t_station_s">station master · platforms</small></button>
+    <button class="tab" data-view="passenger"><span data-i18n="t_pass">Passenger</span> <small data-i18n="t_pass_s">app · SMS · 139 call</small></button>
+    <button class="tab" data-view="board"><span data-i18n="t_board">Station board</span> <small data-i18n="t_board_s">what the platform sees</small></button>
+    <button class="tab" data-view="proof"><span data-i18n="t_proof">Proof</span> <small data-i18n="t_proof_s">does it work?</small></button>
+  </nav>
+  <div class="truth-note" id="truthNote"></div>
+</header>
+
+<main>
+  <!-- CONTROL ROOM -->
+  <section class="view on" id="v-control">
+    <div class="grid g-tiles" id="ctlTiles"></div>
+    <div class="card" style="margin-top:16px">
+      <div class="card-head">
+        <div><h3 data-i18n="corr_title">Live corridor · New Delhi → Prayagraj Jn</h3>
+          <div class="sub" data-i18n="corr_sub">Every train on the trunk, where the last report + its delay puts it now. Colour is delay; the halo marks a persistent congestion hotspot (topology layer, shown for context).</div></div>
+        <div class="legend" id="stripLegend"></div>
+      </div>
+      <div class="strip-wrap" id="strip"></div>
+    </div>
+    <div class="grid g-2-1" style="margin-top:16px">
+      <div class="card">
+        <div class="card-head">
+          <div><h3 data-i18n="marey_title">Time–distance chart (control chart)</h3>
+            <div class="sub" data-i18n="marey_sub">Solid = what happened. Dashed = SAARTHI's median forecast; the band is the selected train's 80% window. Lines that cross between stations are precedence conflicts.</div></div>
+          <div class="seg" id="mareyDir"><button data-dir="0" class="on">Both</button><button data-dir="1">→ Prayagraj</button><button data-dir="-1">→ Delhi</button></div>
+        </div>
+        <div id="marey"></div>
+        <div class="legend" id="mareyLegend"></div>
+      </div>
+      <div class="card">
+        <h3 data-i18n="recs_title">Hold or let run?</h3>
+        <div class="sub" data-i18n="recs_sub">Where two forecast paths cross inside a block section. Costed in passenger-minutes, with the reason shown. You decide.</div>
+        <div id="recs"></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px" id="drawer"></div>
+  </section>
+
+  <!-- STATION -->
+  <section class="view" id="v-station">
+    <div class="card-head" style="margin-bottom:12px">
+      <div class="ctl" style="display:flex;gap:12px;align-items:end">
+        <div><label data-i18n="station">Station</label><select id="stnSel" style="width:240px"></select></div>
+      </div>
+      <div class="muted" style="font-size:12px;max-width:560px" data-i18n="plat_note">Platform numbers are a simulated plan (real platform allocation is not in public data). Windows are SAARTHI's published 80% windows.</div>
+    </div>
+    <div class="grid g-tiles" id="stnTiles"></div>
+    <div class="card" style="margin-top:16px">
+      <div class="card-head"><div><h3 data-i18n="arr_title">Arrivals · next 6 hours</h3><div class="sub" data-i18n="arr_sub">Bar = published window on a shared clock. Tick = today's single-number ETA. Grey = timetable.</div></div><div class="legend" id="arrLegend"></div></div>
+      <div id="arrTable" style="max-height:520px;overflow:auto"></div>
+    </div>
+    <div class="grid g-2-1" style="margin-top:16px">
+      <div class="card"><h3 data-i18n="pf_title">Platform plan · next 4 hours</h3><div class="sub" data-i18n="pf_sub">Each bar: expected occupancy (window start → window end + halt). Red outline = two trains likely to want the same platform.</div><div id="gantt"></div><div id="conflicts"></div></div>
+      <div class="card"><h3 data-i18n="ann_title">Announcements</h3><div class="sub" data-i18n="ann_sub">Generated from the published window. Marked "announce now" only when the window is stable, so staff stop re-announcing.</div><div id="anns"></div></div>
+    </div>
+  </section>
+
+  <!-- PASSENGER -->
+  <section class="view" id="v-passenger">
+    <div class="devices">
+      <div class="card ctl">
+        <h3 data-i18n="p_setup">Try it as a passenger</h3>
+        <div class="sub" data-i18n="p_setup_s">The phone on the right is the real passenger web app (open /p on any phone on this network).</div>
+        <label data-i18n="station">Station</label><select id="pStn"></select>
+        <label data-i18n="p_train">Train</label><select id="pTrain"></select>
+        <label data-i18n="p_role">I am</label>
+        <div class="chips" id="pRole"><button data-role="board" class="on" data-i18n="p_board">Boarding</button><button data-role="receive" data-i18n="p_receive">Receiving someone</button></div>
+        <label data-i18n="p_travel">Time to reach the station</label>
+        <div class="chips" id="pTravel"><button data-v="10">10 min</button><button data-v="20">20</button><button data-v="30" class="on">30</button><button data-v="45">45</button><button data-v="60">60</button><button data-v="90">90</button></div>
+        <label data-i18n="p_lang">Language</label>
+        <div class="chips" id="pLang"><button data-v="en" class="on">English</button><button data-v="hi" class="hi">हिंदी</button><button data-v="hing">Hinglish</button></div>
+        <div class="card" style="margin-top:16px;background:var(--surface-2);box-shadow:none">
+          <div style="font-size:12px" class="ink2" id="pInsight"></div>
+        </div>
+      </div>
+      <div><div class="phone"><iframe id="phoneFrame" title="SAARTHI passenger app"></iframe></div></div>
+      <div class="stack">
+        <div class="card">
+          <div class="card-head"><div><h3 data-i18n="sms_title">SMS on a ₹1,200 feature phone</h3><div class="sub" data-i18n="sms_sub">Same promise, 160 characters. Pick the script to see what it costs.</div></div>
+            <div class="seg" id="smsLang"><button data-v="hing" class="on">Hinglish</button><button data-v="en">EN</button><button data-v="hi" class="hi">हिंदी</button></div></div>
+          <div class="g-1-1 grid" style="align-items:start">
+            <div class="fphone"><div class="brandline">SAARTHI · 2G</div><div class="fscreen" id="fscreen"></div>
+              <div class="fkeys"><button class="call">✆</button><button>▲</button><button class="end">✕</button><button>1</button><button>2 abc</button><button>3 def</button></div></div>
+            <div class="smsmeta" id="smsMeta"></div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-head"><div><h3 data-i18n="ivr_title">Call 139 · voice for everyone</h3><div class="sub" data-i18n="ivr_sub">For people who can't or don't read SMS. ▶ plays the prompt with your computer's voice.</div></div>
+            <div class="seg" id="ivrLang"><button data-v="hi" class="on hi">हिंदी</button><button data-v="en">EN</button></div></div>
+          <div id="ivr"></div>
+        </div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <div class="card-head"><div><h3 data-i18n="log_title">Every message this passenger got today</h3><div class="sub" data-i18n="log_sub">Triggered by the damped publisher, not by every twitch of the ETA.</div></div><div id="logStat" class="ink2" style="font-size:13px;text-align:right"></div></div>
+      <div class="msglog" id="msgLog"></div>
+    </div>
+  </section>
+
+  <!-- BOARD -->
+  <section class="view" id="v-board">
+    <div class="card-head" style="margin-bottom:12px">
+      <div class="ctl" style="display:flex;gap:12px;align-items:end">
+        <div><label data-i18n="station">Station</label><select id="bStn" style="width:240px"></select></div>
+        <div><label>&nbsp;</label><div class="seg" id="bMode"><button data-v="saarthi" class="on">SAARTHI board</button><button data-v="today">Today's board</button></div></div>
+      </div>
+      <div class="muted" style="font-size:12px;max-width:520px" data-i18n="board_note">Boards alternate Hindi and English every 6 seconds, as Indian station boards do. Time stays 24-hour, the board convention. Window, not a single time.</div>
+    </div>
+    <div class="board-wrap"><div class="led" id="led"></div><div class="board-legs"><span id="boardFoot"></span><span>SAARTHI · train indication board feed</span></div></div>
+    <div class="grid g-1-1" style="margin-top:16px">
+      <div class="card"><h3 data-i18n="halt_title">A halt with no board: the wall poster</h3><div class="sub" data-i18n="halt_sub">Painted at every small halt. A missed call is free; the SMS reply works on any phone.</div><div id="poster"></div></div>
+      <div class="card"><h3 data-i18n="halt_sms">What the missed call sends back</h3><div class="sub" id="haltSub"></div><div id="haltSms"></div></div>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section class="view" id="v-proof"><div id="proof"></div></section>
+</main>
+<div class="tip" id="tip"></div>
+<script src="/static/js/core.js?v=11"></script>
+<script src="/static/js/control.js?v=11"></script>
+<script src="/static/js/station.js?v=11"></script>
+<script src="/static/js/passenger.js?v=11"></script>
+<script src="/static/js/board.js?v=11"></script>
+<script src="/static/js/proof.js?v=11"></script>
+<script>App.start();</script>
+</body>
+</html>

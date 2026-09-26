@@ -1,0 +1,8 @@
+{
+ "reports_raw": 103691,
+ "phantom": 4327,
+ "phantom_pct": 4.172975475209999,
+ "trips": 4643,
+ "trips_with_phantom": 1326,
+ "corridor_phantom": 457
+}

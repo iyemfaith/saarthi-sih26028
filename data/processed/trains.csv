@@ -1,0 +1,324 @@
+train,name,cls,priority,load,dir,origin,origin_name,dest,dest_name,corr_first,corr_last,n_corr_halts,days_ran
+1905,Cnb-adi Suf Weekly Special,Special,2,1600,UP,CNB,Kanpur Central,ADI,Ahmedabad,CNB,TDL,3,4
+1906,Adi-cnb Weekly Suf Special,Special,2,1600,DN,ADI,Ahmedabad,CNB,Kanpur Central,TDL,CNB,3,4
+2249,-pnbe -dli      Special,Special,2,1600,UP,PNBE,Patna,DLI,Delhi,PRYJ,CNB,2,1
+2391,Pnbe Anvt Sf Special,Special,2,1600,UP,PNBE,Patna,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,4
+2392,Pnbe Summer Special,Special,2,1600,DN,ANVT,Anand Vihar Terminal,PNBE,Patna,CNB,PRYJ,2,4
+2393,Rjpb-ndls Clone Special,Special,2,1600,UP,RJPB,Rajendra Nagar,NDLS,New Delhi,PRYJ,NDLS,2,26
+2394,Ndls-pnbe Clone Special,Special,2,1600,DN,NDLS,New Delhi,PNBE,Patna,NDLS,PRYJ,2,26
+2397,Gaya Anvt Special,Special,2,1600,UP,GAYA,Gaya,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,26
+2525,Kyq-anvt Tod Special,Special,2,1600,UP,KYQ,Kamakhya,ANVT,Anand Vihar Terminal,PRYJ,ALJN,4,4
+2526,Kyq Festval Special,Special,2,1600,DN,ANVT,Anand Vihar Terminal,KYQ,Kamakhya,ALJN,PRYJ,3,5
+2563,Bju Ndls Special,Special,2,1600,UP,BJU,Barauni,NDLS,New Delhi,CNB,NDLS,2,30
+2564,Ndls Bju Special,Special,2,1600,DN,NDLS,New Delhi,BJU,Barauni,NDLS,CNB,2,30
+2569,Dbg Ndls Special,Special,2,1600,UP,DBG,Darbhanga,NDLS,New Delhi,CNB,NDLS,2,30
+2570,Ndls Dbg Sf Special,Special,2,1600,DN,NDLS,New Delhi,DBG,Darbhanga,NDLS,CNB,2,30
+3007,Hwh Kwp Special,Special,2,1600,UP,HWH,Howrah,KWP,Khatipura,PRYJ,TDL,2,5
+3008,Kwp Hwh Special,Special,2,1600,DN,KWP,Khatipura,HWH,Howrah,TDL,PRYJ,2,4
+3109,Sdah Brc  Special,Special,2,1600,UP,SDAH,Sealdah,BRC,Vadodara,PRYJ,TDL,3,4
+3110,Brc Sdah Special,Special,2,1600,DN,BRC,Vadodara,SDAH,Sealdah,TDL,PRYJ,3,4
+3255,Pnbe Anvt Sf Special,Special,2,1600,UP,PNBE,Patna,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,8
+3256,Pnbe Summer Special,Special,2,1600,DN,ANVT,Anand Vihar Terminal,PNBE,Patna,CNB,PRYJ,2,7
+3257,Anvt Sf Special,Special,2,1600,UP,DNR,Danapur,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,5
+3258,Dnr Summer Special,Special,2,1600,DN,ANVT,Anand Vihar Terminal,DNR,Danapur,CNB,PRYJ,2,5
+3413,Mldt  Ndls Special,Special,2,1600,UP,MLDT,Malda Town,NDLS,New Delhi,PRYJ,NDLS,3,7
+3414,Mldt Festval Special,Special,2,1600,DN,NDLS,New Delhi,MLDT,Malda Town,NDLS,PRYJ,3,7
+3483,Bgp Ndls  Special,Special,2,1600,UP,BGP,Bhagalpur,NDLS,New Delhi,PRYJ,NDLS,3,7
+3484,Bgp Festval Special,Special,2,1600,DN,NDLS,New Delhi,BGP,Bhagalpur,NDLS,PRYJ,3,8
+3575,Asn Anvt Special,Special,2,1600,UP,ASN,Asansol,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,4
+4055,Bui Anvt Sf Special,Special,2,1600,UP,BUI,Ballia,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,4
+4056,Anvt Bui Sup Special,Special,2,1600,DN,ANVT,Anand Vihar Terminal,BUI,Ballia,CNB,PRYJ,2,4
+4115,Sfg Ltt Sf S Special,Special,2,1600,UP,SFG,Subedarganj,LTT,Lokmanyatilak,FTP,CNB,2,1
+4116,Ltt Sfg Sf Special,Special,2,1600,DN,LTT,Lokmanyatilak,SFG,Subedarganj,CNB,FTP,2,1
+4121,Sfg Sc Sf Special,Special,2,1600,UP,SFG,Subedarganj,SC,Secunderabad,FTP,CNB,2,2
+4122,Sc Sfg Sf Special,Special,2,1600,DN,SC,Secunderabad,SFG,Subedarganj,CNB,FTP,2,2
+4125,Sfg Bdts  Sf Special,Special,2,1600,UP,SFG,Subedarganj,BDTS,Bandra Terminus,FTP,TDL,4,5
+4126,Bdts Sfg Special,Special,2,1600,DN,BDTS,Bandra Terminus,SFG,Subedarganj,TDL,FTP,3,4
+4151,Cnb-ltt Suf  Special,Special,2,1600,DN,CNB,Kanpur Central,LTT,Lokmanyatilak,CNB,PRYJ,5,1
+4152,Ltt Cnb Sf Special,Special,2,1600,UP,LTT,Lokmanyatilak,CNB,Kanpur Central,PRYJ,CNB,5,1
+4182,Cnb-sfg Memu,Special,2,1600,DN,CNB,Kanpur Central,SFG,Subedarganj,CNB,BRE,5,30
+4184,Dli-tdl Memu,Special,2,1600,DN,DLI,Delhi,TDL,Tundla,GZB,TDL,5,30
+5053,Gkp-bdts Summer Special,Special,2,1600,UP,GKP,Gorakhpur,BDTS,Bandra Terminus,CNB,TDL,2,4
+5054,Bdts-gkp Summer Special,Special,2,1600,DN,BDTS,Bandra Terminus,GKP,Gorakhpur,TDL,CNB,2,3
+5219,Mfp Anvt Sf  Special,Special,2,1600,UP,MFP,Muzaffarpur,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,30
+5299,Mfp Kota Special,Special,2,1600,UP,MFP,Muzaffarpur,KOTA,Kota,PRYJ,TDL,2,1
+5599,Spj-kota One Way Special,Special,2,1600,UP,SPJ,Samastipur,KOTA,Kota,CNB,TDL,3,1
+5733,Kir Festval Special,Special,2,1600,DN,ASR,Amritsar,KIR,Katihar,KRJ,CNB,4,4
+5734,Kir Asr Special,Special,2,1600,UP,KIR,Katihar,ASR,Amritsar,CNB,KRJ,4,4
+9061,Udhna - Ghazipur City Special,Special,2,1600,DN,UDN,Udhna,GCT,Ghazipur City,TDL,PRYJ,3,2
+9062,Ghazipur City - Udhna Special,Special,2,1600,UP,GCT,Ghazipur City,UDN,Udhna,PRYJ,TDL,3,2
+9111,Brc Gkp Special,Special,2,1600,DN,BRC,Vadodara,GKP,Gorakhpur,TDL,CNB,3,4
+9112,Gkp Brc Special,Special,2,1600,UP,GKP,Gorakhpur,BRC,Vadodara,CNB,TDL,3,4
+9117,St Sfg Special,Special,2,1600,DN,ST,Surat,SFG,Subedarganj,ETW,FTP,2,4
+9118,Sfg St Sf  Hspecial,Special,2,1600,UP,SFG,Subedarganj,ST,Surat,FTP,ETW,3,4
+9183,Mmct Banaras Special,Special,2,1600,DN,MMCT,Mumbai Central,BSBS,Banaras,TDL,CNB,3,4
+9184,Bsbs Mmct Special,Special,2,1600,UP,BSBS,Banaras,MMCT,Mumbai Central,CNB,TDL,3,4
+9195,Brc Mau Sf Special,Special,2,1600,DN,BRC,Vadodara,MAU,Mau,TDL,CNB,2,4
+9196,Mau Brc Sf Special,Special,2,1600,UP,MAU,Mau,BRC,Vadodara,CNB,TDL,2,5
+9404,Bsbs Adi Special,Special,2,1600,UP,BSBS,Banaras,ADI,Ahmedabad,PRYJ,TDL,4,1
+9405,Sbib Pnbe Special,Special,2,1600,DN,SBIB,Sabarmati Bg,PNBE,Patna,TDL,CNB,2,4
+9406,Pnbe Sbib Special,Special,2,1600,UP,PNBE,Patna,SBIB,Sabarmati Bg,CNB,TDL,2,4
+9525,Hapa Nhln Special,Special,2,1600,DN,HAPA,Hapa,NHLN,Naharlagun,ETW,PRYJ,2,4
+9526,Nhln Hapa Special,Special,2,1600,UP,NHLN,Naharlagun,HAPA,Hapa,PRYJ,ETW,2,4
+9569,Rjt Bju Special,Special,2,1600,DN,RJT,Rajkot,BJU,Barauni,TDL,PRYJ,2,3
+9570,Bju Rjt Special,Special,2,1600,UP,BJU,Barauni,RJT,Rajkot,PRYJ,TDL,3,5
+12003,Swaran Shatabdi,Shatabdi,6,1000,UP,LJN,Lucknow,NDLS,New Delhi,CNB,NDLS,7,30
+12004,Shatabdi Express,Shatabdi,6,1000,DN,NDLS,New Delhi,LJN,Lucknow,NDLS,CNB,7,30
+12017,Ddn Shtbdi Express,Superfast,4,1800,DN,NDLS,New Delhi,DDN,Dehradoon,NDLS,GZB,2,30
+12018,Ddn Shtbdi Express,Superfast,4,1800,UP,DDN,Dehradoon,NDLS,New Delhi,GZB,NDLS,2,30
+12033,Shatabdi Express,Shatabdi,6,1000,UP,CNB,Kanpur Central,NDLS,New Delhi,CNB,NDLS,5,24
+12034,Ndls Cnb Sht,Superfast,4,1800,DN,NDLS,New Delhi,CNB,Kanpur Central,NDLS,CNB,4,23
+12039,Ndls Shatabadi,Superfast,4,1800,UP,KGM,Kathgodam,NDLS,New Delhi,GZB,NDLS,2,29
+12040,Kathgodam Shatabdii,Shatabdi,6,1000,DN,NDLS,New Delhi,KGM,Kathgodam,NDLS,GZB,2,30
+12055,Ddn Janshatabdii,Shatabdi,6,1000,DN,NDLS,New Delhi,DDN,Dehradoon,NDLS,GZB,2,30
+12056,Janshatabdi Express,Shatabdi,6,1000,UP,DDN,Dehradoon,NDLS,New Delhi,GZB,NDLS,2,30
+12179,Af Intercity,Superfast,4,1800,UP,LJN,Lucknow,AF,Agra Fort,CNB,TDL,9,30
+12180,Ljn Intercity,Superfast,4,1800,DN,AF,Agra Fort,LJN,Lucknow,TDL,CNB,9,30
+12225,Kaifiyat Express,Superfast,4,1800,UP,AMH,Azamgarh,DLI,Delhi,CNB,GZB,4,30
+12226,Kaifiyat Express,Superfast,4,1800,DN,DLI,Delhi,AMH,Azamgarh,GZB,CNB,4,30
+12229,Lucknow Mail,Superfast,4,1800,UP,LKO,Lucknow,NDLS,New Delhi,GZB,NDLS,2,25
+12230,Lucknow Mail,Superfast,4,1800,DN,NDLS,New Delhi,LKO,Lucknow,NDLS,GZB,2,25
+12235,Anvt Humsfr Express,Superfast,4,1800,UP,MDP,Madhupur,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,4
+12236,Madhupur Humsfr,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,MDP,Madhupur,CNB,PRYJ,2,4
+12259,Bkn Duronto Express,Duronto,5,1150,UP,SDAH,Sealdah,BKN,Bikaner,CNB,NDLS,2,17
+12260,Sdah Duronto,Duronto,5,1150,DN,BKN,Bikaner,SDAH,Sealdah,NDLS,CNB,2,17
+12273,Ndls Duronto Express,Duronto,5,1150,UP,HWH,Howrah,NDLS,New Delhi,CNB,NDLS,2,9
+12274,Hwh Duronto Express,Duronto,5,1150,DN,NDLS,New Delhi,HWH,Howrah,NDLS,CNB,2,8
+12275,Ndls Humsafar,Humsafar,4,1300,UP,PRYJ,Prayagraj,NDLS,New Delhi,PRYJ,NDLS,2,8
+12276,Humsafar Express,Humsafar,4,1300,DN,NDLS,New Delhi,PRYJ,Prayagraj,NDLS,PRYJ,2,10
+12281,Duronto Express,Duronto,5,1150,UP,BBS,Bhubaneswar,NDLS,New Delhi,CNB,NDLS,2,4
+12282,Bbs Duronto Express,Duronto,5,1150,DN,NDLS,New Delhi,BBS,Bhubaneswar,NDLS,CNB,2,4
+12301,Rajdhani Express,Rajdhani,6,1100,UP,HWH,Howrah,NDLS,New Delhi,PRYJ,NDLS,3,25
+12302,Hwh Rajdhani,Rajdhani,6,1100,DN,NDLS,New Delhi,HWH,Howrah,NDLS,PRYJ,3,25
+12303,Poorva Express,Superfast,4,1800,UP,HWH,Howrah,NDLS,New Delhi,PRYJ,NDLS,6,17
+12304,Poorva Express,Superfast,4,1800,DN,NDLS,New Delhi,HWH,Howrah,NDLS,PRYJ,6,17
+12305,Rajdhani Express,Rajdhani,6,1100,UP,HWH,Howrah,NDLS,New Delhi,PRYJ,NDLS,3,5
+12306,Kolkata Rajdhni,Superfast,4,1800,DN,NDLS,New Delhi,HWH,Howrah,NDLS,PRYJ,3,4
+12307,Hwh Ju Express,Superfast,4,1800,UP,HWH,Howrah,JU,Jodhpur,PRYJ,TDL,5,14
+12308,Ju Hwh Express,Superfast,4,1800,DN,JU,Jodhpur,HWH,Howrah,TDL,PRYJ,5,15
+12309,Rjpb Tejas Raj,Tejas,5,1000,UP,RJPB,Rajendra Nagar,NDLS,New Delhi,PRYJ,NDLS,3,29
+12310,Rjpb Tejas Raj,Tejas,5,1000,DN,NDLS,New Delhi,RJPB,Rajendra Nagar,NDLS,PRYJ,3,29
+12311,Netaji Express,Superfast,4,1800,UP,HWH,Howrah,KLK,Kalka,PRYJ,GZB,12,30
+12312,Netaji Express,Superfast,4,1800,DN,KLK,Kalka,HWH,Howrah,GZB,PRYJ,12,30
+12313,Rajdhani Express,Rajdhani,6,1100,UP,SDAH,Sealdah,NDLS,New Delhi,CNB,NDLS,2,29
+12314,Sealdah Rajdhni,Superfast,4,1800,DN,NDLS,New Delhi,SDAH,Sealdah,NDLS,CNB,2,28
+12315,Ananya Express,Superfast,4,1800,UP,KOAA,Kolkatta Terminal,UDZ,Udaipur City,PRYJ,TDL,3,4
+12316,Ananya Express,Superfast,4,1800,DN,UDZ,Udaipur City,KOAA,Kolkatta Terminal,TDL,PRYJ,3,5
+12319,Koaa Gwl Express,Superfast,4,1800,UP,KOAA,Kolkatta Terminal,GWL,Gwalior,PRYJ,CNB,2,4
+12320,Agc Koaa Sf Express,Superfast,4,1800,DN,GWL,Gwalior,KOAA,Kolkatta Terminal,CNB,PRYJ,2,4
+12323,Hwh Bme Express,Superfast,4,1800,UP,HWH,Howrah,BME,Barmer,PRYJ,CNB,2,8
+12324,Bme-hwh Bi Wkly Express,Superfast,4,1800,DN,BME,Barmer,HWH,Howrah,CNB,PRYJ,2,8
+12349,Goda Ndls Hmsfr,Superfast,4,1800,UP,GODA,Godda,NDLS,New Delhi,PRYJ,NDLS,3,5
+12350,Goda Humsafar,Humsafar,4,1300,DN,NDLS,New Delhi,GODA,Godda,NDLS,PRYJ,3,3
+12381,Poorva Express,Superfast,4,1800,UP,HWH,Howrah,NDLS,New Delhi,PRYJ,NDLS,6,13
+12382,Poorva Express,Superfast,4,1800,DN,NDLS,New Delhi,HWH,Howrah,NDLS,PRYJ,6,11
+12391,Shramjeevi Express,Superfast,4,1800,UP,RGD,Rajgir,NDLS,New Delhi,GZB,NDLS,2,30
+12392,Shramjivi Express,Superfast,4,1800,DN,NDLS,New Delhi,RGD,Rajgir,NDLS,GZB,2,30
+12393,S Kranti Sup Express,Superfast,4,1800,UP,RJPB,Rajendra Nagar,NDLS,New Delhi,CNB,NDLS,2,30
+12394,Sampooran K Express,Superfast,4,1800,DN,NDLS,New Delhi,RJPB,Rajendra Nagar,NDLS,CNB,2,28
+12395,Ziyarat Express,Superfast,4,1800,UP,RJPB,Rajendra Nagar,AII,Ajmer,PRYJ,TDL,4,4
+12396,Ziyarat Express,Superfast,4,1800,DN,AII,Ajmer,RJPB,Rajendra Nagar,TDL,PRYJ,4,4
+12397,Mahabodhi Express,Superfast,4,1800,UP,GAYA,Gaya,NDLS,New Delhi,PRYJ,NDLS,5,30
+12398,Mahabodhi Express,Superfast,4,1800,DN,NDLS,New Delhi,GAYA,Gaya,NDLS,PRYJ,5,29
+12403,Pryj Bkn Sf Express,Superfast,4,1800,UP,PRYJ,Prayagraj,LGH,Lalgarh,PRYJ,ETW,5,13
+12404,Bkn Pryj Sf Express,Superfast,4,1800,DN,LGH,Lalgarh,PRYJ,Prayagraj,ETW,PRYJ,5,17
+12417,Prayagraj Express,Superfast,4,1800,UP,PRYJ,Prayagraj,NDLS,New Delhi,PRYJ,NDLS,6,22
+12418,Prayagraj Express,Superfast,4,1800,DN,NDLS,New Delhi,PRYJ,Prayagraj,NDLS,PRYJ,6,28
+12419,Gomti Express,Superfast,4,1800,UP,LKO,Lucknow,NDLS,New Delhi,CNB,NDLS,14,30
+12420,Gomti Express,Superfast,4,1800,DN,NDLS,New Delhi,LKO,Lucknow,NDLS,CNB,14,30
+12423,Rajdhani Express,Rajdhani,6,1100,UP,DBRG,Dibrugarh,NDLS,New Delhi,PRYJ,NDLS,3,30
+12424,Dbrt Rajdhani,Rajdhani,6,1100,DN,NDLS,New Delhi,DBRG,Dibrugarh,NDLS,PRYJ,3,30
+12427,Rewa Anvt Express,Superfast,4,1800,UP,REWA,Rewa,ANVT,Anand Vihar Terminal,PRYJ,GZB,6,30
+12428,Rewa Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,REWA,Rewa,GZB,PRYJ,7,30
+12429,Lko Ndls Ac Express,Superfast,4,1800,UP,LKO,Lucknow,NDLS,New Delhi,GZB,NDLS,2,25
+12430,Ndls Lko Ac Express,Superfast,4,1800,DN,NDLS,New Delhi,LKO,Lucknow,NDLS,GZB,2,28
+12435,Garib Rath Express,Garib Rath,4,1600,UP,JYG,Jaynagar,ANVT,Anand Vihar Terminal,PRYJ,ALJN,3,9
+12436,Jyg Garib Rath,Garib Rath,4,1600,DN,ANVT,Anand Vihar Terminal,JYG,Jaynagar,ALJN,PRYJ,3,8
+12443,Hlz Anvt Sf Express,Superfast,4,1800,UP,HLZ,Haldia,ANVT,Anand Vihar Terminal,PRYJ,GZB,3,4
+12444,Haldiya Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,HLZ,Haldia,GZB,PRYJ,3,4
+12451,Shram Shkti Express,Superfast,4,1800,UP,CNB,Kanpur Central,NDLS,New Delhi,CNB,NDLS,2,20
+12452,Shram Shkti Express,Superfast,4,1800,DN,NDLS,New Delhi,CNB,Kanpur Central,NDLS,CNB,2,22
+12453,Rnc Ndls Raj Express,Superfast,4,1800,UP,RNC,Ranchi,NDLS,New Delhi,PRYJ,NDLS,3,5
+12454,Rnc Rajdhani,Rajdhani,6,1100,DN,NDLS,New Delhi,RNC,Ranchi,NDLS,PRYJ,3,3
+12487,Seemanchal Express,Superfast,4,1800,UP,JBN,Jogbani,ANVT,Anand Vihar Terminal,PRYJ,GZB,5,30
+12488,Seemanchal Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,JBN,Jogbani,GZB,PRYJ,5,30
+12495,Pratap Express,Superfast,4,1800,DN,BKN,Bikaner,KOAA,Kolkatta Terminal,TDL,PRYJ,3,4
+12496,Pratap Express,Superfast,4,1800,UP,KOAA,Kolkatta Terminal,BKN,Bikaner,PRYJ,TDL,3,3
+12505,Northeast Express,Superfast,4,1800,UP,KYQ,Kamakhya,ANVT,Anand Vihar Terminal,PRYJ,GZB,7,30
+12506,North East Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,KYQ,Kamakhya,ALJN,PRYJ,6,30
+12523,Njp Ndls Express,Superfast,4,1800,UP,NJP,New Jalpaiguri,NDLS,New Delhi,GZB,NDLS,2,8
+12524,Ndls Njp Sf Express,Superfast,4,1800,DN,NDLS,New Delhi,NJP,New Jalpaiguri,NDLS,GZB,2,9
+12553,Vaishali Express,Superfast,4,1800,UP,SHC,Saharsa,NDLS,New Delhi,CNB,NDLS,6,30
+12554,Vaishali Express,Superfast,4,1800,DN,NDLS,New Delhi,SHC,Saharsa,NDLS,CNB,6,30
+12555,Gorakhdham Express,Superfast,4,1800,UP,GKP,Gorakhpur,BTI,Bathinda,CNB,NDLS,2,30
+12556,Gorakhdham Express,Superfast,4,1800,DN,BTI,Bathinda,GKP,Gorakhpur,NDLS,CNB,2,30
+12559,Shiv Ganga Express,Superfast,4,1800,UP,BSBS,Banaras,NDLS,New Delhi,PRYJ,NDLS,3,27
+12560,Shiv Ganga Express,Superfast,4,1800,DN,NDLS,New Delhi,BSBS,Banaras,NDLS,PRYJ,3,28
+12561,Swatantra S Express,Superfast,4,1800,UP,JYG,Jaynagar,NDLS,New Delhi,PRYJ,NDLS,5,30
+12562,Swtantrta S Express,Superfast,4,1800,DN,NDLS,New Delhi,JYG,Jaynagar,NDLS,PRYJ,4,29
+12565,Bihar S Kranti,Superfast,4,1800,UP,DBG,Darbhanga,NDLS,New Delhi,CNB,NDLS,2,30
+12566,Bihar Sampark Kranti Express,Sampark Kranti,4,1800,DN,NDLS,New Delhi,DBG,Darbhanga,NDLS,CNB,2,30
+12581,Bsbs Ndls Sfexp,Superfast,4,1800,UP,BSBS,Banaras,NDLS,New Delhi,PRYJ,NDLS,5,17
+12582,Bsbs Sf Express,Superfast,4,1800,DN,NDLS,New Delhi,BSBS,Banaras,NDLS,PRYJ,5,17
+12801,Purushottam Sf,Superfast,4,1800,UP,PURI,Puri,NDLS,New Delhi,PRYJ,NDLS,5,30
+12802,Purushottam Express,Superfast,4,1800,DN,NDLS,New Delhi,PURI,Puri,NDLS,PRYJ,4,29
+12815,Nandankanan Sf,Superfast,4,1800,UP,PURI,Puri,ANVT,Anand Vihar Terminal,PRYJ,ALJN,5,17
+12816,Nandankanan Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,PURI,Puri,ALJN,PRYJ,5,17
+12817,Swarnjayanti Express,Superfast,4,1800,UP,HTE,Hatia,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,13
+12818,Jharkhand Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,HTE,Hatia,CNB,PRYJ,2,12
+12873,Swarnjayanti Express,Superfast,4,1800,UP,HTE,Hatia,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,13
+12874,Anvt Hte Sf Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,HTE,Hatia,CNB,PRYJ,2,8
+12875,Neelachal Sf Express,Superfast,4,1800,UP,PURI,Puri,ANVT,Anand Vihar Terminal,CNB,GZB,7,13
+12876,Neelanchal Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,PURI,Puri,ALJN,CNB,6,13
+12877,Ndls Garib Rath,Garib Rath,4,1600,UP,RNC,Ranchi,NDLS,New Delhi,PRYJ,NDLS,3,13
+12878,Rnc Garib Rath,Garib Rath,4,1600,DN,NDLS,New Delhi,RNC,Ranchi,NDLS,PRYJ,3,12
+12937,Hwh Garbha Express,Superfast,4,1800,DN,GIMB,Gandhidham Bg,HWH,Howrah,TDL,PRYJ,3,4
+12938,Garbha Express,Superfast,4,1800,UP,HWH,Howrah,GIMB,Gandhidham Bg,PRYJ,TDL,3,3
+12941,Parasnath Express,Superfast,4,1800,DN,BVC,Bhavnagar Terminus,ASN,Asansol,TDL,PRYJ,3,4
+12942,Parasnath Express,Superfast,4,1800,UP,ASN,Asansol,BVC,Bhavnagar Terminus,PRYJ,TDL,3,3
+12945,Banaras Sf Express,Superfast,4,1800,DN,VRL,Veraval,BSBS,Banaras,TDL,PRYJ,3,5
+12946,Bsbs Vrl Sf Express,Superfast,4,1800,UP,BSBS,Banaras,VRL,Veraval,PRYJ,TDL,4,4
+12947,Azimabad Express,Superfast,4,1800,DN,ADI,Ahmedabad,PNBE,Patna,TDL,PRYJ,3,7
+12948,Azimabad Express,Superfast,4,1800,UP,PNBE,Patna,ADI,Ahmedabad,PRYJ,TDL,3,5
+12987,Sdah Aii Sf Express,Superfast,4,1800,UP,SDAH,Sealdah,AII,Ajmer,PRYJ,TDL,3,23
+12988,Aii Sdah Sf Express,Superfast,4,1800,DN,AII,Ajmer,SDAH,Sealdah,TDL,PRYJ,3,30
+13237,Pnbe Kota Express,Mail/Express,3,1900,UP,PNBE,Patna,KOTA,Kota,CNB,ETW,2,13
+13238,Kota Pnbe Express,Mail/Express,3,1900,DN,KOTA,Kota,PNBE,Patna,ETW,CNB,2,13
+13239,Pnbe Kota Express,Mail/Express,3,1900,UP,PNBE,Patna,KOTA,Kota,CNB,ETW,3,17
+13240,Kota Pnbe Express,Mail/Express,3,1900,DN,KOTA,Kota,PNBE,Patna,ETW,CNB,3,17
+13413,Farakka Express,Mail/Express,3,1900,UP,BLGT,Balurghat,BTI,Bathinda,CNB,GZB,9,13
+13414,Farkka Express,Mail/Express,3,1900,DN,BTI,Bathinda,BLGT,Balurghat,GZB,CNB,9,13
+13483,Farakka Express,Mail/Express,3,1900,UP,BLGT,Balurghat,BTI,Bathinda,CNB,GZB,9,17
+13484,Farakka Express,Mail/Express,3,1900,DN,BTI,Bathinda,BLGT,Balurghat,GZB,CNB,9,17
+14003,Mldt Ndls Express,Mail/Express,3,1900,UP,MLDT,Malda Town,NDLS,New Delhi,GZB,NDLS,2,8
+14004,Ndls Mldt Express,Mail/Express,3,1900,DN,NDLS,New Delhi,MLDT,Malda Town,NDLS,GZB,2,9
+14005,Lichchvi Express,Mail/Express,3,1900,UP,SMI,Sitamarhi,ANVT,Anand Vihar Terminal,PRYJ,GZB,7,30
+14006,Lichchivi Express,Mail/Express,3,1900,DN,ANVT,Anand Vihar Terminal,SMI,Sitamarhi,GZB,PRYJ,7,30
+14030,Mut Sgnr Express,Mail/Express,3,1900,UP,MUT,Meerut Cant,SGNR,Shri Ganganagar,GZB,NDLS,2,30
+14033,Jammu Mail,Mail/Express,3,1900,UP,SFG,Subedarganj,SVDK,Shri Mata Vaishno Devi Katra,FTP,ALJN,4,30
+14034,Jammu Mail,Mail/Express,3,1900,DN,SVDK,Shri Mata Vaishno Devi Katra,SFG,Subedarganj,ALJN,FTP,3,30
+14037,Porvotr S Krnti,Mail/Express,3,1900,UP,SCL,Silchar,NDLS,New Delhi,PRYJ,NDLS,3,4
+14038,Ndls Scl Express,Mail/Express,3,1900,DN,NDLS,New Delhi,SCL,Silchar,NDLS,PRYJ,3,4
+14113,Sfg Ddn Express,Mail/Express,3,1900,UP,SFG,Subedarganj,DDN,Dehradoon,FTP,ALJN,6,27
+14114,Ddn Sfg Express,Mail/Express,3,1900,DN,DDN,Dehradoon,SFG,Subedarganj,ALJN,FTP,6,30
+14117,Kalindi Express,Mail/Express,3,1900,UP,PRYJ,Prayagraj,BNW,Bhiwani,PRYJ,GZB,8,30
+14118,Kalindi Express,Mail/Express,3,1900,DN,BNW,Bhiwani,PRYJ,Prayagraj,GZB,PRYJ,8,30
+14151,Cnb Anvt Express,Mail/Express,3,1900,UP,CNB,Kanpur Central,ANVT,Anand Vihar Terminal,CNB,ALJN,4,5
+14152,Anvt Cnb Express,Mail/Express,3,1900,DN,ANVT,Anand Vihar Terminal,CNB,Kanpur Central,ALJN,CNB,4,3
+14163,Sangam Express,Mail/Express,3,1900,UP,SFG,Subedarganj,MTC,Meerut City,BRE,KRJ,14,30
+14164,Sangam Express,Mail/Express,3,1900,DN,MTC,Meerut City,SFG,Subedarganj,KRJ,BRE,13,30
+14217,Unchahar Express,Mail/Express,3,1900,UP,PYGS,Prayagraj Sangam,CDG,Chandigarh,CNB,GZB,12,30
+14218,Unchahar Express,Mail/Express,3,1900,DN,CDG,Chandigarh,PYGS,Prayagraj Sangam,GZB,CNB,12,30
+14315,Intercity Express,Mail/Express,3,1900,UP,BE,Bareilly(nr),NDLS,New Delhi,GZB,NDLS,2,30
+14316,Intercity Express,Mail/Express,3,1900,DN,NDLS,New Delhi,BE,Bareilly(nr),NDLS,GZB,2,30
+14619,Tripura Sundari,Mail/Express,3,1900,UP,AGTL,Agartala,FZR,Firozpur Cant,PRYJ,NDLS,3,4
+14620,Tripura Sundari,Mail/Express,3,1900,DN,FZR,Firozpur Cant,AGTL,Agartala,NDLS,PRYJ,3,5
+14681,Ndls Juc Express,Mail/Express,3,1900,DN,NDLS,New Delhi,JUC,Jalandhar City,NDLS,GZB,2,30
+14682,Juc Ndls Express,Mail/Express,3,1900,UP,JUC,Jalandhar City,NDLS,New Delhi,GZB,NDLS,2,30
+14853,Marudhar Express,Mail/Express,3,1900,UP,BCY,Varanasi City,JU,Jodhpur,CNB,TDL,4,13
+14854,Marudhar Express,Mail/Express,3,1900,DN,JU,Jodhpur,BCY,Varanasi City,TDL,CNB,4,13
+14863,Marudhar Express,Mail/Express,3,1900,UP,BCY,Varanasi City,JU,Jodhpur,CNB,TDL,4,13
+14864,Marudhar Express,Mail/Express,3,1900,DN,JU,Jodhpur,BCY,Varanasi City,TDL,CNB,4,13
+14865,Marudhar Express,Mail/Express,3,1900,UP,BCY,Varanasi City,JU,Jodhpur,CNB,TDL,4,4
+14866,Marudhar Express,Mail/Express,3,1900,DN,JU,Jodhpur,BCY,Varanasi City,TDL,CNB,4,4
+15003,Chaurichaura Express,Mail/Express,3,1900,DN,CPA,Kanpur Anwrganj,GKP,Gorakhpur,CNB,PRYJ,6,30
+15004,Chaurichaura Express,Mail/Express,3,1900,UP,GKP,Gorakhpur,CPA,Kanpur Anwrganj,PRYJ,CNB,6,18
+15025,Mau Anvt Express,Mail/Express,3,1900,UP,MAU,Mau,ANVT,Anand Vihar Terminal,CNB,GZB,3,9
+15026,Anvt Mau Express,Mail/Express,3,1900,DN,ANVT,Anand Vihar Terminal,MAU,Mau,GZB,CNB,3,9
+15045,Gkp Okha Express,Mail/Express,3,1900,UP,GKP,Gorakhpur,OKHA,Okha,CNB,TDL,3,4
+15046,Okha Gkp Express,Mail/Express,3,1900,DN,OKHA,Okha,GKP,Gorakhpur,TDL,CNB,3,5
+15127,Kashi V Nath Express,Mail/Express,3,1900,UP,BSBS,Banaras,NDLS,New Delhi,GZB,NDLS,2,26
+15128,Kashi V Nath Express,Mail/Express,3,1900,DN,NDLS,New Delhi,BSBS,Banaras,NDLS,GZB,2,26
+15269,Mfp-sbib Jansadharan Express,Mail/Express,3,1900,UP,MFP,Muzaffarpur,SBIB,Sabarmati Bg,CNB,TDL,2,3
+15483,Sikkimmahananda,Mail/Express,3,1900,UP,APDJ,Alipur Duar,DLI,Delhi,PRYJ,GZB,14,30
+15484,Mahananda Express,Mail/Express,3,1900,DN,DLI,Delhi,APDJ,Alipur Duar,GZB,PRYJ,14,30
+15557,Amrit Bharat Express,Amrit Bharat,3,2000,UP,DBG,Darbhanga,ANVT,Anand Vihar Terminal,CNB,ALJN,4,9
+15558,Amrit Bharat Express,Amrit Bharat,3,2000,DN,ANVT,Anand Vihar Terminal,DBG,Darbhanga,ALJN,CNB,4,8
+15631,Bme Ghy Express,Mail/Express,3,1900,DN,BME,Barmer,GHY,Guwahati,TDL,PRYJ,3,5
+15632,Ghy Bme Express,Mail/Express,3,1900,UP,GHY,Guwahati,BME,Barmer,PRYJ,TDL,3,4
+15633,Bkn Ghy Express,Mail/Express,3,1900,DN,BKN,Bikaner,GHY,Guwahati,TDL,PRYJ,3,4
+15634,Ghy Bkn Express,Mail/Express,3,1900,UP,GHY,Guwahati,BKN,Bikaner,PRYJ,TDL,3,3
+15635,Guwahati Express,Mail/Express,3,1900,DN,OKHA,Okha,GHY,Guwahati,TDL,CNB,2,4
+15636,Ghy Okha Express,Mail/Express,3,1900,UP,GHY,Guwahati,OKHA,Okha,CNB,TDL,2,5
+15657,Brahmputra Mail,Mail/Express,3,1900,DN,DLI,Delhi,KYQ,Kamakhya,ALJN,PRYJ,5,27
+15658,Brahmaputra Express,Mail/Express,3,1900,UP,KYQ,Kamakhya,DLI,Delhi,PRYJ,GZB,6,30
+15667,Kamakhya Express,Mail/Express,3,1900,DN,GIMB,Gandhidham Bg,KYQ,Kamakhya,TDL,CNB,2,4
+15668,Kyq Gimb Express,Mail/Express,3,1900,UP,KYQ,Kamakhya,GIMB,Gandhidham Bg,CNB,TDL,2,4
+15705,Champaran Humsfr,Mail/Express,3,1900,UP,KIR,Katihar,DLI,Delhi,CNB,ALJN,2,9
+15706,Champaran Hmsfr,Mail/Express,3,1900,DN,DLI,Delhi,KIR,Katihar,ALJN,CNB,2,8
+15707,Kir Asr Express,Mail/Express,3,1900,UP,KIR,Katihar,ASR,Amritsar,CNB,GZB,8,30
+15708,Asr-kir Express,Mail/Express,3,1900,DN,ASR,Amritsar,KIR,Katihar,KRJ,CNB,7,30
+18101,Tata Jat Express,Mail/Express,3,1900,UP,TATA,Tatanagar,JAT,Jammutavi,PRYJ,GZB,11,13
+18102,Jat-tata Express,Mail/Express,3,1900,DN,JAT,Jammutavi,TATA,Tatanagar,GZB,PRYJ,11,13
+18309,Sbp -jat Express Special,Mail/Express,3,1900,UP,SBP,Sambalpur,JAT,Jammutavi,PRYJ,GZB,12,17
+18310,Jat-sbp Express,Mail/Express,3,1900,DN,JAT,Jammutavi,SBP,Sambalpur,GZB,PRYJ,12,17
+18427,Puri Anvt Express,Mail/Express,3,1900,UP,PURI,Puri,ANVT,Anand Vihar Terminal,PRYJ,TDL,3,4
+18428,Anvt Puri Express,Mail/Express,3,1900,DN,ANVT,Anand Vihar Terminal,PURI,Puri,TDL,PRYJ,3,5
+19037,Avadh Express,Mail/Express,3,1900,DN,BDTS,Bandra Terminus,BJU,Barauni,TDL,CNB,7,30
+19038,Avadh Express,Mail/Express,3,1900,UP,BJU,Barauni,BDTS,Bandra Terminus,CNB,TDL,7,30
+19053,St Mfp Express,Mail/Express,3,1900,DN,ST,Surat,MFP,Muzaffarpur,TDL,CNB,2,4
+19054,Mfp St Express,Mail/Express,3,1900,UP,MFP,Muzaffarpur,ST,Surat,CNB,TDL,2,5
+19565,Okha Ddn Express,Mail/Express,3,1900,DN,OKHA,Okha,DDN,Dehradoon,NDLS,GZB,2,4
+19566,Uttaranchal Express,Mail/Express,3,1900,UP,DDN,Dehradoon,OKHA,Okha,GZB,NDLS,2,5
+20175,Vande Bharat Express,Vande Bharat,6,1130,UP,BSBS,Banaras,AGC,Agra Cantt,PRYJ,TDL,4,6
+20176,Vande Bharat Express,Vande Bharat,6,1130,DN,AGC,Agra Cantt,BSBS,Banaras,TDL,PRYJ,4,7
+20403,Pryj Bkn Sf Express,Superfast,4,1800,UP,PRYJ,Prayagraj,LGH,Lalgarh,PRYJ,ETW,5,11
+20404,Bkn Pryj Sf Express,Superfast,4,1800,DN,LGH,Lalgarh,PRYJ,Prayagraj,ETW,PRYJ,5,13
+20407,Rnc Ndls Raj Express,Superfast,4,1800,UP,RNC,Ranchi,NDLS,New Delhi,PRYJ,NDLS,3,4
+20408,Rnc Rajdhani,Rajdhani,6,1100,DN,NDLS,New Delhi,RNC,Ranchi,NDLS,PRYJ,3,3
+20415,Mahakal Express,Superfast,4,1800,UP,BSB,Varanasi,INDB,Indore,PRYJ,FTP,2,5
+20416,Mahakal Sup Express,Superfast,4,1800,DN,INDB,Indore,BSB,Varanasi,FTP,PRYJ,2,5
+20801,Magadh Express,Superfast,4,1800,UP,IPR,Islampur,NDLS,New Delhi,PRYJ,NDLS,7,30
+20802,Magadh Express,Superfast,4,1800,DN,NDLS,New Delhi,IPR,Islampur,NDLS,PRYJ,7,28
+20817,Tejas Raj Express,Tejas,5,1000,UP,BBS,Bhubaneswar,NDLS,New Delhi,PRYJ,NDLS,3,4
+20818,Bbs Tejas Raj,Tejas,5,1000,DN,NDLS,New Delhi,BBS,Bhubaneswar,NDLS,PRYJ,3,5
+20839,Rnc Ndls Raj Express,Superfast,4,1800,UP,RNC,Ranchi,NDLS,New Delhi,CNB,NDLS,2,5
+20840,Ndls Rnc Raj Express,Superfast,4,1800,DN,NDLS,New Delhi,RNC,Ranchi,NDLS,CNB,2,8
+20941,Bdts Gct Sf Express,Superfast,4,1800,DN,BDTS,Bandra Terminus,GCT,Ghazipur City,ETW,PRYJ,3,7
+20942,Gct Bdts Sf Express,Superfast,4,1800,UP,GCT,Ghazipur City,BDTS,Bandra Terminus,PRYJ,ETW,3,8
+20961,Udn Bsbs Sfast,Superfast,4,1800,DN,UDN,Udhna,BSBS,Banaras,ETW,PRYJ,3,3
+20962,Bsbs Udn Sf Express,Superfast,4,1800,UP,BSBS,Banaras,UDN,Udhna,PRYJ,ETW,3,4
+22307,Hwh Bkn Express,Superfast,4,1800,UP,HWH,Howrah,BKN,Bikaner,PRYJ,TDL,5,12
+22308,Bkn Hwh Sf Express,Superfast,4,1800,DN,BKN,Bikaner,HWH,Howrah,TDL,PRYJ,5,12
+22405,Anvt Garib Rath,Garib Rath,4,1600,UP,BGP,Bhagalpur,ANVT,Anand Vihar Terminal,PRYJ,ALJN,4,12
+22406,Bgp Garib Rath,Garib Rath,4,1600,DN,ANVT,Anand Vihar Terminal,BGP,Bhagalpur,ALJN,PRYJ,4,13
+22409,Anvt Garib Rath,Garib Rath,4,1600,UP,GAYA,Gaya,ANVT,Anand Vihar Terminal,PRYJ,GZB,3,5
+22410,Gaya Garib Rath,Garib Rath,4,1600,DN,ANVT,Anand Vihar Terminal,GAYA,Gaya,GZB,PRYJ,3,4
+22415,Vande Bharat Express,Vande Bharat,6,1130,UP,BSB,Varanasi,NDLS,New Delhi,PRYJ,NDLS,3,26
+22416,Vande Bharat Express,Vande Bharat,6,1130,DN,NDLS,New Delhi,BSB,Varanasi,NDLS,PRYJ,3,26
+22417,Mahamana Express,Superfast,4,1800,UP,BSB,Varanasi,NDLS,New Delhi,GZB,NDLS,2,11
+22418,Mahamana Express,Superfast,4,1800,DN,NDLS,New Delhi,BSB,Varanasi,NDLS,GZB,2,11
+22425,Vande Bharat Express,Vande Bharat,6,1130,UP,AYC,Ayodhya Cantt,ANVT,Anand Vihar Terminal,CNB,ALJN,2,25
+22426,Vande Bharat Express,Vande Bharat,6,1130,DN,ANVT,Anand Vihar Terminal,AYC,Ayodhya Cantt,ALJN,CNB,2,26
+22427,Bhrigu  Sup Express,Superfast,4,1800,UP,BUI,Ballia,ANVT,Anand Vihar Terminal,PRYJ,ALJN,3,3
+22428,Bhrigu Sf Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,BUI,Ballia,ALJN,PRYJ,3,4
+22431,Sfg Uhp Express,Superfast,4,1800,UP,SFG,Subedarganj,MCTM,Martyr Captain Tushar Mahajan,FTP,KRJ,6,8
+22432,Sfg Mctm Sf Express,Superfast,4,1800,DN,MCTM,Martyr Captain Tushar Mahajan,SFG,Subedarganj,KRJ,FTP,6,9
+22433,Gct Anvt Sf Express,Superfast,4,1800,UP,GCT,Ghazipur City,ANVT,Anand Vihar Terminal,PRYJ,GZB,3,8
+22434,Suhaldev Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,GCT,Ghazipur City,GZB,PRYJ,3,8
+22435,Vande Bharat Express,Vande Bharat,6,1130,UP,BSB,Varanasi,NDLS,New Delhi,PRYJ,NDLS,3,25
+22436,Vande Bharat Express,Vande Bharat,6,1130,DN,NDLS,New Delhi,BSB,Varanasi,NDLS,PRYJ,3,25
+22437,Anvt Humsafar,Humsafar,4,1300,UP,PRYJ,Prayagraj,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,9
+22438,Pryj Humsafar,Humsafar,4,1300,DN,ANVT,Anand Vihar Terminal,PRYJ,Prayagraj,CNB,PRYJ,2,12
+22441,Cktd-cnb-intercity,Superfast,4,1800,UP,CKTD,Chitrakot,CNB,Kanpur Central,PRYJ,CNB,6,27
+22442,Cnb-cktd-intercity,Superfast,4,1800,DN,CNB,Kanpur Central,CKTD,Chitrakot,CNB,PRYJ,6,30
+22449,Porvotr S Krnti,Superfast,4,1800,UP,GHY,Guwahati,NDLS,New Delhi,PRYJ,NDLS,3,8
+22450,Porvotr S Krnti,Superfast,4,1800,DN,NDLS,New Delhi,GHY,Guwahati,NDLS,PRYJ,3,6
+22459,Anvt Humsafar,Humsafar,4,1300,UP,MDP,Madhupur,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,4
+22460,Bv Dham Humsafr,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,MDP,Madhupur,CNB,PRYJ,2,4
+22465,Baba B Dham Express,Superfast,4,1800,UP,MDP,Madhupur,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,4
+22466,Baba V Dham Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,MDP,Madhupur,CNB,PRYJ,2,3
+22581,Bui Ndls Sf Express,Superfast,4,1800,UP,BUI,Ballia,NDLS,New Delhi,PRYJ,NDLS,5,8
+22582,Ndls Bui Sf Express,Superfast,4,1800,DN,NDLS,New Delhi,BUI,Ballia,NDLS,PRYJ,5,8
+22805,Bbs Anvt S F,Superfast,4,1800,UP,BBS,Bhubaneswar,ANVT,Anand Vihar Terminal,PRYJ,CNB,2,4
+22806,Anvt Bbs Sf Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,BBS,Bhubaneswar,CNB,PRYJ,2,5
+22811,Tejas Raj Express,Tejas,5,1000,UP,BBS,Bhubaneswar,NDLS,New Delhi,PRYJ,NDLS,3,9
+22812,Bbs Tejas Raj,Tejas,5,1000,DN,NDLS,New Delhi,BBS,Bhubaneswar,NDLS,PRYJ,3,6
+22823,Tejas Raj Express,Tejas,5,1000,UP,BBS,Bhubaneswar,NDLS,New Delhi,PRYJ,NDLS,3,17
+22824,Bbs Tejas Raj,Tejas,5,1000,DN,NDLS,New Delhi,BBS,Bhubaneswar,NDLS,PRYJ,3,14
+22857,Src Anvt Sf Express,Superfast,4,1800,UP,SRC,Santragachi,ANVT,Anand Vihar Terminal,PRYJ,ALJN,3,5
+22858,Anvt Src Sf Express,Superfast,4,1800,DN,ANVT,Anand Vihar Terminal,SRC,Santragachi,ALJN,PRYJ,3,4
+22969,Okha Bsbs Sf Express,Superfast,4,1800,DN,OKHA,Okha,BSBS,Banaras,TDL,PRYJ,3,4
+22970,Bsbs Okha Sf Express,Superfast,4,1800,UP,BSBS,Banaras,OKHA,Okha,PRYJ,TDL,3,3
+82501,Irctc Tejas Express,Tejas,5,1000,UP,LJN,Lucknow,NDLS,New Delhi,CNB,NDLS,4,26
+82502,Irctc Tejas Express,Tejas,5,1000,DN,NDLS,New Delhi,LJN,Lucknow,NDLS,CNB,4,25

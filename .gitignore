@@ -1,0 +1,17 @@
+# third-party inputs: fetched by `py -m saarthi.download`, not redistributed
+data/raw/
+
+# regenerable intermediates (run_pipeline.sh rebuilds them)
+data/processed/rows.pkl
+data/processed/reports.pkl
+data/processed/routes.pkl
+data/processed/irn_edges.csv
+data/processed/*.log
+
+# kept: corridor.json, report.json, evidence.json, quality.json, names.json, trains.csv,
+#       models/ and replay/ -> enough to run the dashboard straight after cloning
+
+__pycache__/
+*.pyc
+.claude/
+.venv/
