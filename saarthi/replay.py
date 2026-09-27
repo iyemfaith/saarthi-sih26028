@@ -32,7 +32,7 @@ OUT.mkdir(exist_ok=True)
 META = json.load(open(MODELS / "meta.json"))
 ALPHAS = META["alphas"]
 # calibrated quantile levels published to clients (the conformal offsets widen the tails)
-ALPHAS_CAL = [0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95]
+from .decide import ALPHAS_CAL  # noqa: E402
 MAXV = 130.0   # km/h: nothing on this corridor is faster, so arrival can't be sooner than this allows
 
 # Human reasons: which model features speak to which cause.

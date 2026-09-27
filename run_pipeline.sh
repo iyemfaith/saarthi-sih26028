@@ -9,3 +9,4 @@ py -m saarthi.features
 py -m saarthi.model
 py -m saarthi.replay
 py -m saarthi.finalize
+py -m saarthi.export

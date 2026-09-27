@@ -20,6 +20,7 @@ MAX_HOLD = 15        # a controller will not loop a train longer than this for a
 MIN_SAVING = 8000    # passenger-minutes; below this the recommendation is noise
 MAX_LOSS = 30        # cap on one follower's loss per block (schedule padding inflates slow run-times)
 BUFFER_BIG, BUFFER_SMALL = 15, 8   # minutes to ticket/platform at a junction vs a halt
+ALPHAS_CAL = [0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95]   # levels of the published calibrated quantiles
 BIG = {"NDLS", "GZB", "ALJN", "TDL", "ETW", "CNB", "PRYJ"}
 
 
@@ -36,7 +37,6 @@ def quantile_at(qs, alphas, p):
 def passenger(fc, now, role="board", travel=30, station=""):
     """fc: forecast dict with calibrated 'cq' (clock-minute quantiles at ALPHAS_CAL).
     Returns the decision and the numbers behind it."""
-    from .replay import ALPHAS_CAL
     buf = BUFFER_BIG if station in BIG else BUFFER_SMALL
     p = 0.05 if role == "board" else 0.20
     target = quantile_at(fc["cq"], ALPHAS_CAL, p)

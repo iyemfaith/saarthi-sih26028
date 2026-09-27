@@ -2,6 +2,10 @@
 
 **Not a time. A decision.** Working prototype for SIH 2026 · PS SIH26028 *Dynamic Forecast of ETA for Coaching Trains* (Team Hoppers).
 
+### ▶ Live demo: **https://iyemfaith.github.io/saarthi-sih26028/**
+
+Passenger phone app on its own: https://iyemfaith.github.io/saarthi-sih26028/web/p.html · works best on a laptop for the dashboard. The first visit downloads ~15 MB (a Python runtime plus one replay day, ~3 MB compressed) and takes 10–20 s; after that it runs entirely in your browser: the same Python code as the server, via [Pyodide](https://pyodide.org). No server, no sign-in.
+
 It replays **real Indian Railways running records** for a held-out week on the **Delhi → Kanpur → Prayagraj trunk** (19 stations, 635 km, 323 trains) exactly as a live system would have seen them. Every 5 minutes it publishes a calibrated, damped arrival window, turns it into decisions, and delivers them to five surfaces.
 
 ## Run it
@@ -16,7 +20,7 @@ python -m uvicorn saarthi.api:app --port 8026
 
 Then open http://127.0.0.1:8026. On Windows you can double-click `start.bat` instead. The passenger phone app on its own is at http://127.0.0.1:8026/p.
 
-The replayed days ship with the repo, so the dashboard runs straight after cloning. To rebuild everything from the raw data (downloads ~25 MB, then about 35 min): `bash run_pipeline.sh`.
+The replayed days ship with the repo (as JSON in `data/processed/web/`), so the dashboard runs straight after cloning. The live demo is this same repo served by GitHub Pages: with no server present, `web/js/backend.js` runs `saarthi/service.py` in the browser instead. To rebuild everything from the raw data (downloads ~25 MB, then about 35 min): `bash run_pipeline.sh`.
 
 ## The five surfaces (one forecast, no one's view diluted for anyone else)
 
@@ -67,6 +71,8 @@ saarthi/model.py     PUBLISH   quantile LightGBM + per-horizon conformal (CQR) +
 saarthi/replay.py              5-minute replay, damped publisher, hold/let-run, today's ETA for contrast
 saarthi/decide.py    DECIDE    asymmetric passenger advice; passenger-minute precedence
 saarthi/messages.py            SMS (GSM-7/UCS-2, DLT templates), 139 IVR, PA announcements
-saarthi/api.py                 FastAPI server; reveals truth only once the clock passes it
+saarthi/service.py             the API as plain functions; reveals truth only once the clock passes it
+saarthi/api.py                 FastAPI wrapper (laptop); in the browser demo Pyodide calls service.py directly
+saarthi/export.py              replayed days -> JSON bundles for server and browser
 web/                           dashboard + passenger app (no external libraries, works offline)
 ```

@@ -6,10 +6,12 @@ data/processed/rows.pkl
 data/processed/reports.pkl
 data/processed/routes.pkl
 data/processed/irn_edges.csv
+data/processed/replay/
 data/processed/*.log
 
-# kept: corridor.json, report.json, evidence.json, quality.json, names.json, trains.csv,
-#       models/ and replay/ -> enough to run the dashboard straight after cloning
+# kept: corridor.json, report.json, evidence.json, quality.json, names.json, trains.csv, models/
+#       and web/ (replayed days as JSON) -> enough to run the dashboard straight after cloning,
+#       locally or as the GitHub Pages demo
 
 __pycache__/
 *.pyc

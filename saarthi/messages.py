@@ -10,10 +10,9 @@ Design rules (the invisible pain points):
 Boards keep the 24-hour clock Indian Railways boards already use.
 """
 import math
+from datetime import datetime, timedelta
 
-import pandas as pd
-
-T0 = pd.Timestamp("2024-08-31")
+T0 = datetime(2024, 8, 31)   # stdlib only: this module also runs in the browser (Pyodide)
 HEADER = "JK-SARTHI-G"          # operator/circle prefix, 6-char header, -G = government sender
 PE_ID = "1101XXXXXXXXXXXXX45"   # Principal Entity ID (placeholder until DLT registration)
 
@@ -33,7 +32,7 @@ def sms_meta(text):
 
 
 def hm(t):
-    ts = T0 + pd.Timedelta(minutes=float(t))
+    ts = T0 + timedelta(minutes=round(float(t)))
     return ts.hour, ts.minute
 
 

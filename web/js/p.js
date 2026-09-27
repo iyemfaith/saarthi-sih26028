@@ -56,7 +56,9 @@
   }
   function mins(m) { m = Math.max(0, Math.round(m)); const h = Math.floor(m / 60), r = m % 60; return h ? `${h} ${L().h} ${r} ${L().m}` : `${r} ${L().m}`; }
   function toast(s) { const t = $("toast"); t.textContent = s; t.style.display = "block"; clearTimeout(toast.h); toast.h = setTimeout(() => t.style.display = "none", 4200); }
-  const api = async (p, o) => (await fetch(`/api/${p}?${new URLSearchParams(o)}`)).json();
+  // inside the dashboard's phone frame, share the dashboard's backend (no second Python runtime)
+  const backend = (() => { try { return (window.parent !== window && window.parent.SaarthiBackend) || window.SaarthiBackend; } catch (e) { return window.SaarthiBackend; } })();
+  const api = (p, o) => backend.call(p, o);
 
   function setLangButtons() { document.querySelectorAll("#lang button").forEach(b => b.classList.toggle("on", b.dataset.v === P.lang)); document.documentElement.lang = P.lang === "hi" ? "hi" : "en"; }
   document.querySelectorAll("#lang button").forEach(b => b.onclick = () => { P.lang = b.dataset.v; setLangButtons(); render(); });

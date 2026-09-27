@@ -20,11 +20,8 @@ const App = {
   meta: null, date: null, day0: 0, t: 0, playing: false, speed: 60, lang: "en", view: "control",
   sel: null, st: null, stepT: null, views: {}, lastFetch: 0, busy: false,
 
-  async api(path, params = {}) {
-    const q = new URLSearchParams(params).toString();
-    const r = await fetch(`/api/${path}${q ? "?" + q : ""}`);
-    if (!r.ok) throw new Error(`${path}: ${r.status}`);
-    return r.json();
+  api(path, params = {}) {
+    return SaarthiBackend.call(path, params);
   },
 
   // ---------- time ----------

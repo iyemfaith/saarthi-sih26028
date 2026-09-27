@@ -39,7 +39,7 @@ App.views.passenger = (() => {
     if (!P.tid) return;
     const params = { date: A.date, t: A.t, tid: P.tid, code: P.code, role: P.role, travel: P.travel, lang: P.lang };
     const fr = A.$("phoneFrame");
-    if (!frameReady) { fr.src = `/p?embed=1&${new URLSearchParams(params)}`; frameReady = true; }
+    if (!frameReady) { fr.src = `p.html?embed=1&${new URLSearchParams(params)}`; frameReady = true; }
     else fr.contentWindow.postMessage({ type: "saarthi", p: params }, "*");
     const [d, log] = await Promise.all([A.api("passenger", params), A.api("messages", params)]);
     insight(d);
